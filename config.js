@@ -86,13 +86,13 @@ global.AUTO_SEEN_STATUS = true
 
 //OwnerShip
 global.owner = [
-  [process.env.OWNER_NUMBER || '919637987574', process.env.OWNER_NAME || 'Developer Shizo 🤖', true],
-  ['919637987574', 'Shizo Techie ❤️✨', true]
+  [process.env.OWNER_NUMBER || '201095499866', process.env.OWNER_NAME || 'Developer Shizo 🤖', true],
+  ['201095499866', 'S N A R K O ❤️✨', true]
 ]
 global.mods = []
 global.prems = []
 
-global.author = process.env.OWNER_NAME || 'Shizo The Techie'
+global.author = process.env.OWNER_NAME || 'S NA R K O'
 global.botname = process.env.BOT_NAME || 'OREO-BOT'
  
  
@@ -110,7 +110,7 @@ global.stkpack = process.env.BOT_NAME || 'OREO-BOT 🥵'
 global.stkowner = process.env.OWNER_NAME || '© Shizo The Techie'
 
 //Watermark
-global.maker = process.env.MAKER || 'Made with ❤️ by OREO-BOT'
+global.maker = process.env.MAKER || 'Made with ❤️ by S N A R K O'
 
 //global emojis
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
@@ -125,8 +125,8 @@ global.bug = '*!! Sorry 💢 !!*\nSomething went wrong 🌋'
 global.stop = '*!! 🎭 Unfortunately 💔 !!*\nBot system is not Responding 🙃'
 
 //TimeLines
-global.botdate = `*⫹⫺ Date:*  ${moment.tz('Asia/Kolkata').format('DD/MM/YY')}`
-global.bottime = `*⫹⫺ Time:* ${moment.tz('Asia/Kolkata').format('HH:mm:ss')}`
+global.botdate = `*⫹⫺ Date:*  ${moment.tz('Africa/Cairo').format('DD/MM/YY')}`
+global.bottime = `*⫹⫺ Time:* ${moment.tz('Africa/Cairo').format('hh:mm:ss')}`
 
 //Hosting Management
 global.serverHost = 1
